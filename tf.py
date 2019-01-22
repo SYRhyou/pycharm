@@ -13,6 +13,6 @@ mul = a * b
 g = (a * b) + a + b
 sess = tf.Session()
 
-print("Add : %i " %sess.run(add, feed_dict={a:2, b:3}))
-print("Mul : %i " %sess.run(mul, feed_dict={a:2, b:3}))
-print("Graph : %i " %sess.run(g, feed_dict={a:2, b:3}))
+print("Add : %i " %sess.run(add, feed_dict={a:5, b:3}))
+print("Mul : %i " %sess.run(mul, feed_dict={a:5, b:3}))
+print("Graph : %i " %sess.run(g, feed_dict={a:5, b:3}))
